@@ -1,0 +1,6 @@
+n = input("Introduzca un numero entero para el dividendo: ")
+m = input("Introduzca un numero entero para el divisor: ")
+print(n + " dividido entre " +  m + " da un cociente de ")
+print(str(int(n) / int(m)))
+print("y un resto de ")
+print(str(int(n) % int(m)))

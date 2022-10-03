@@ -1,0 +1,5 @@
+inversion = float(input("¿Cuanta cantidad desea invertir?: "))
+porcentaje = float(input("¿Cual es su interés porcentual anual?: "))
+años = int(input("¿En cuantos años?: "))
+print("Capital obtenido en la inversion: ")
+print(str(round(inversion * (porcentaje / 100 + 1) ** años, 2)))
